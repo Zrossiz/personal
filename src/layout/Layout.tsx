@@ -8,6 +8,7 @@ export const Layout = ({ children }: ILayoutProps) => {
         <>
             <Head>
                 <title>Roadmap | Shtepa</title>
+                <link rel="icon" type="image/x-icon" href="/favicon.svg" />
             </Head>
             <div className={styles.global}>
                 <div className={styles.main}>
