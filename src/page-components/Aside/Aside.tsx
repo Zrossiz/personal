@@ -1,4 +1,5 @@
 import styles from './Aside.module.scss';
+import Link from 'next/link';
 
 export const Aside = () => {
     return (
@@ -6,42 +7,42 @@ export const Aside = () => {
             <h2>Shtepa Mentoring</h2>
             <div>
                 <div className={styles.title}>
-                    <a href="/about">Обо мне</a>
+                    <Link href="/about">Обо мне</Link>
                 </div>
                 <div className={styles.lang}>
                     <div className={styles.title}>JavaScript</div>
                     <div className={styles.subTitle}>
-                        <a href="/roadmap/js/questions">
+                        <Link href="/roadmap/js/questions">
                             Вопросы для подготовки
-                        </a>
+                        </Link>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="/roadmap/js/links">
+                        <Link href="/roadmap/js/links">
                             Полезные ссылки
-                        </a>
+                        </Link>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="/roadmap/js/projects">
+                        <Link href="/roadmap/js/projects">
                             Проекты
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className={styles.lang}>
                     <div className={styles.title}>Go</div>
                     <div className={styles.subTitle}>
-                        <a href="/roadmap/go/questions">
+                        <Link href="/roadmap/go/questions">
                             Вопросы для подготовки
-                        </a>
+                        </Link>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="/roadmap/go/links">
+                        <Link href="/roadmap/go/links">
                             Полезные ссылки
-                        </a>
+                        </Link>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="/roadmap/go/projects">
+                        <Link href="/roadmap/go/projects">
                             Проекты
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
