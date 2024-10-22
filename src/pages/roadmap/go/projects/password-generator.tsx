@@ -70,10 +70,13 @@ const GoPasswordGenerator = () => {
                 Возвращает ответ в формате:
                 <pre>
                   <code>
-                    &#123;<br />
-                    <span>"username"</span>: <span>"string"</span>,<span>"password"</span>:{' '}<br />
-                    <span>"string"</span>,<span>"created_at"</span>: <span>"Date"</span><br />
-                    &#125;<br />
+                    &#123;
+                    <br />
+                    <span>"username"</span>: <span>"string"</span>,<span>"password"</span>: <br />
+                    <span>"string"</span>,<span>"created_at"</span>: <span>"Date"</span>
+                    <br />
+                    &#125;
+                    <br />
                   </code>
                 </pre>
               </li>
@@ -99,7 +102,7 @@ const GoPasswordGenerator = () => {
                 <pre>
                   <code>
                     &#123; <br />
-                    <span>"username"</span>: <span>"string"</span>,<span>"password"</span>:{' '} <br />
+                    <span>"username"</span>: <span>"string"</span>,<span>"password"</span>: <br />
                     <span>"string"</span>,<span>"created_at"</span>: <span>"Date"</span> <br />
                     &#125; <br />
                   </code>
