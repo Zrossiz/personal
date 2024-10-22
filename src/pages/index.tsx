@@ -1,9 +1,11 @@
 import { Layout } from "@/layout/Layout";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <Layout>
       <div>index</div>
     </Layout>
   );
 }
+
+export default HomePage;

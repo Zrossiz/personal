@@ -1,5 +1,4 @@
 import styles from './Aside.module.scss';
-import { useState } from 'react';
 
 export const Aside = () => {
     return (
@@ -7,38 +6,40 @@ export const Aside = () => {
             <h2>Shtepa Mentoring</h2>
             <div>
                 <div className={styles.title}>
-                    <a href="">Обо мне</a>
+                    <a href="/about">Обо мне</a>
                 </div>
                 <div className={styles.lang}>
                     <div className={styles.title}>JavaScript</div>
                     <div className={styles.subTitle}>
-                        <a href="">
+                        <a href="/roadmap/js/questions">
                             Вопросы для подготовки
                         </a>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="">
+                        <a href="/roadmap/js/links">
                             Полезные ссылки
                         </a>
                     </div>
                     <div className={styles.subTitle}>
-                        Проекты
+                        <a href="/roadmap/js/projects">
+                            Проекты
+                        </a>
                     </div>
                 </div>
                 <div className={styles.lang}>
                     <div className={styles.title}>Go</div>
                     <div className={styles.subTitle}>
-                        <a href="">
+                        <a href="/roadmap/go/questions">
                             Вопросы для подготовки
                         </a>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="">
+                        <a href="/roadmap/go/links">
                             Полезные ссылки
                         </a>
                     </div>
                     <div className={styles.subTitle}>
-                        <a href="">
+                        <a href="/roadmap/go/projects">
                             Проекты
                         </a>
                     </div>

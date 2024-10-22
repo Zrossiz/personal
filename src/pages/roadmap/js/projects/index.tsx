@@ -1,11 +1,11 @@
 import { Layout } from "@/layout/Layout"
 
-const GoHangmanPage = () => {
+const JsProjectsPage = () => {
     return (
         <Layout>
-            <div>go hangman page</div>
+            <div>js projects</div>
         </Layout>
     )
 }
 
-export default GoHangmanPage;
+export default JsProjectsPage;
