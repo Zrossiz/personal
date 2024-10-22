@@ -1,0 +1,47 @@
+.aside {
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 40px;
+
+    h2 {
+        margin: 0;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
+    .title {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .subTitle {
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .projects {
+        margin-top: 10px;
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            margin-left: 4px;
+
+            a {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .break {
+                width: 30%;
+                height: 3px;
+                border-radius: 10px;
+                background-color: var(--white);
+            }
+            
+        }
+    }
+}
