@@ -1,0 +1,57 @@
+.adWrapper {
+    position: relative;
+
+    .ad {
+        position: fixed;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .img {
+            position: relative;
+            width: 120px;
+            height: 116px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .title {
+            font-size: 24px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .tgLink {
+            margin-top: 10px;
+            font-size: 20px;
+            
+            a {
+                position: relative;
+                text-decoration:solid;
+                transition: 0.4s;
+
+                &:hover {
+                    color: #8f8f8f;
+
+                    &::after {
+                        background-color: #8f8f8f;
+                    }
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    background-color: var(--white);
+                    width: 100%;
+                    height: 2px;
+                    left: 0;
+                    bottom: -4px;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+
+}
