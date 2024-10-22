@@ -2,7 +2,6 @@ import { ILayoutProps } from './Layout.props';
 import Head from 'next/head';
 import styles from './Layout.module.scss';
 import { Ad, Aside } from '@/page-components';
-import Image from 'next/image';
 
 export const Layout = ({ children }: ILayoutProps) => {
   return (

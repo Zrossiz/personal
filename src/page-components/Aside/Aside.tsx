@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const Aside = () => {
   return (
     <aside className={styles.aside}>
-      <h2>Shtepa Mentoring</h2>
+      <h2>Штепа Mentoring</h2>
       <div>
         <div className={styles.title}>
           <Link href="/about">Обо мне</Link>
