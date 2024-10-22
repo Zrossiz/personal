@@ -1,11 +1,11 @@
-import { Layout } from "@/layout/Layout"
+import { Layout } from '@/layout/Layout';
 
 const JsProjectsPage = () => {
-    return (
-        <Layout>
-            <div>js projects</div>
-        </Layout>
-    )
-}
+  return (
+    <Layout>
+      <div>js projects</div>
+    </Layout>
+  );
+};
 
 export default JsProjectsPage;

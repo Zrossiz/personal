@@ -1,4 +1,4 @@
-import { Layout } from "@/layout/Layout";
+import { Layout } from '@/layout/Layout';
 
 const HomePage = () => {
   return (
@@ -6,6 +6,6 @@ const HomePage = () => {
       <div>index</div>
     </Layout>
   );
-}
+};
 
 export default HomePage;
