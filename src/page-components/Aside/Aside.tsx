@@ -13,7 +13,9 @@ export const Aside = () => {
             <Link href="/about">Обо мне</Link>
           </div>
           <div className={styles.lang}>
-            <div className={styles.title}>JavaScript</div>
+            <Link href="/roadmap/js">
+              <div className={styles.title}>JavaScript</div>
+            </Link>
             <div className={styles.subTitle}>
               <Link href="/roadmap/js/questions">Вопросы для подготовки</Link>
             </div>
@@ -25,7 +27,9 @@ export const Aside = () => {
             </div>
           </div>
           <div className={styles.lang}>
-            <div className={styles.title}>Go</div>
+            <Link href="/roadmap/go">
+              <div className={styles.title}>Go</div>
+            </Link>
             <div className={styles.subTitle}>
               <Link href="/roadmap/go/questions">Вопросы для подготовки</Link>
             </div>
