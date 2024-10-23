@@ -1,9 +1,14 @@
 .global {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100vw;
     font-family: sans-serif;
     color: var(--white);
 
     .main {
+        min-height: 80vh;
+        flex: 1;
 
         main {
             display: flex;
@@ -12,5 +17,9 @@
         .content {
             width: 60%;
         }
+    }
+
+    .footer {
+        margin-left: 40px;
     }
 }

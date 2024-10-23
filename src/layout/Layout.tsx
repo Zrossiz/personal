@@ -18,6 +18,14 @@ export const Layout = ({ children }: ILayoutProps) => {
             <Ad />
           </main>
         </div>
+        <div className={styles.footer}>
+          <footer>
+            <p>
+              &copy; 2024 Платформа для обучения программированию (Штепа Mentoring). Все права
+              защищены.
+            </p>
+          </footer>
+        </div>
       </div>
     </>
   );

@@ -19,3 +19,8 @@ a {
 li {
   margin: 6px 0;
 }
+
+li, a, span, p {
+  line-height: 1.6rem;
+  font-size: 18px;
+}

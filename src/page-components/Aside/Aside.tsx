@@ -5,7 +5,9 @@ export const Aside = () => {
   return (
     <aside className={styles.aside}>
       <div className={styles.wrapper}>
-        <h2>Штепа Mentoring</h2>
+        <Link href="/">
+          <h2>Штепа Mentoring</h2>
+        </Link>
         <div>
           <div className={styles.title}>
             <Link href="/about">Обо мне</Link>
