@@ -4,7 +4,7 @@ import styles from './Breadcrumb.module.scss';
 
 export const Breadcrumb = () => {
   const router = useRouter();
-  let backPagePath = router.asPath.split('/').slice(0, -1).join('/');
+  const backPagePath = router.asPath.split('/').slice(0, -1).join('/');
 
   return (
     <div className={styles.wrapper}>

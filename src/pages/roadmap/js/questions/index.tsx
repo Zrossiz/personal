@@ -14,7 +14,7 @@ const JsQuestionsPage = () => {
           </li>
           <li>Объясните работу прототипов в JavaScript.</li>
           <li>Что такое hoisting? Как он работает?</li>
-          <li>Как работает "this" в JavaScript? Приведите примеры различных контекстов.</li>
+          <li>Как работает &quot;this&quot; в JavaScript? Приведите примеры различных контекстов.</li>
           <li>
             В чем разница между функциями-выражениями (function expressions) и function declaration?
           </li>
@@ -133,8 +133,8 @@ const JsQuestionsPage = () => {
             SVN)?
           </li>
           <li>
-            Опишите основные этапы работы с Git. Что такое "working directory", "staging area", и
-            "repository"?
+            Опишите основные этапы работы с Git. Что такое &quot;working directory&quot;, &quot;staging area&quot;, и
+            &quot;repository&quot;?
           </li>
           <li>Какая команда используется для создания нового репозитория Git?</li>
           <li>

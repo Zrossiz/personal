@@ -1,4 +1,3 @@
-import { Breadcrumb } from '@/components';
 import { Layout } from '@/layout/Layout';
 
 const GoLinksPage = () => {
