@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
+    height: 100vh;
     font-family: sans-serif;
     color: var(--white);
 
     .main {
-        min-height: 80vh;
         flex: 1;
 
         main {
@@ -20,6 +20,11 @@
     }
 
     .footer {
-        margin-left: 40px;
+        margin-top: 40px;
+        border-top: 2px solid var(--white);
+
+        p {
+            margin: 30px 0px 30px 30px;
+        }
     }
 }

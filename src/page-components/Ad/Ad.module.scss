@@ -17,10 +17,11 @@
     
         .img {
             position: relative;
-            width: 150px;
-            height: 140px;
+            width: 200px;
+            height: 190px;
             border-radius: 50%;
             overflow: hidden;
+            border: 2px solid var(--white);
         }
 
         .title {
