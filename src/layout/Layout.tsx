@@ -18,7 +18,7 @@ export const Layout = ({ children }: ILayoutProps) => {
           <main>
             <Aside />
             <div className={styles.content}>
-              {router.asPath != "/" && <Breadcrumb />}
+              {router.asPath != '/' && <Breadcrumb />}
               {children}
             </div>
             <Ad />
