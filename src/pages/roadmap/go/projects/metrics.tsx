@@ -105,13 +105,13 @@ const GoMetricsPage = () => {
         <pre>
           <code>
             <span>type</span> Metric <span>struct</span> &#123; <br />
-            ID uint <span>// Уникальный идентификатор метрики</span> <br />
-            Name <span>string</span> <span>// Название метрики</span> <br />
-            <span>Type</span> <span>string</span> <span>// Тип метрики (counter или gauge)</span>{' '}
+            ID uint <span> Уникальный идентификатор метрики</span> <br />
+            Name <span>string</span> <span> Название метрики</span> <br />
+            <span>Type</span> <span>string</span> <span> Тип метрики (counter или gauge)</span>{' '}
             <br />
-            Value *float64 <span>// Значение для метрик типа gauge</span> <br />
-            Delta *int64 <span>// Изменение для метрик типа counter</span> <br />
-            CreatedAt <span>time</span>.<span>Time</span> <span>// Время создания метрики</span>{' '}
+            Value *float64 <span> Значение для метрик типа gauge</span> <br />
+            Delta *int64 <span> Изменение для метрик типа counter</span> <br />
+            CreatedAt <span>time</span>.<span>Time</span> <span> Время создания метрики</span>{' '}
             <br />
             &#125;
           </code>

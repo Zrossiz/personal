@@ -4,8 +4,8 @@ const GoPasswordGenerator = () => {
   return (
     <Layout>
       <>
-        <h1 id="-">Генератор паролей</h1>
-        <h2 id="-">Мотивация проекта</h2>
+        <h1>Генератор паролей</h1>
+        <h2>Мотивация проекта</h2>
         <ul>
           <li>Научиться работать с файловой системой ОС.</li>
           <li>Изучение редактирования и создания файлов.</li>
@@ -15,8 +15,8 @@ const GoPasswordGenerator = () => {
           <li>Изучение работы с JWT.</li>
           <li>Научиться хешировать пароли.</li>
         </ul>
-        <h2 id="-">Функционал приложения</h2>
-        <h3 id="-">Работа с хранилищем</h3>
+        <h2>Функционал приложения</h2>
+        <h3>Работа с хранилищем</h3>
         <ul>
           <li>
             <strong>Сохранение записи</strong> в локальное хранилище.
@@ -31,7 +31,7 @@ const GoPasswordGenerator = () => {
             <strong>Чтение записи (-ей)</strong> из файла.
           </li>
         </ul>
-        <h3 id="-">Работа с пользователем</h3>
+        <h3>Работа с пользователем</h3>
         <ul>
           <li>
             <strong>Создание пользователя</strong>.
@@ -43,11 +43,11 @@ const GoPasswordGenerator = () => {
             <strong>JWT авторизация</strong>.
           </li>
         </ul>
-        <h2 id="-">Сервисы</h2>
+        <h2>Сервисы</h2>
         <p>
           Приложение на <strong>Go</strong>, реализующее REST API для управления паролями.
         </p>
-        <h3 id="-">Эндпоинты</h3>
+        <h3>Эндпоинты</h3>
         <ul>
           <li>
             <p>
@@ -72,8 +72,10 @@ const GoPasswordGenerator = () => {
                   <code>
                     &#123;
                     <br />
-                    <span>"username"</span>: <span>"string"</span>,<span>"password"</span>: <br />
-                    <span>"string"</span>,<span>"created_at"</span>: <span>"Date"</span>
+                    <span>&quot;username&quot;</span>: <span>&quot;string&quot;</span>,
+                    <span>&quot;password&quot;</span>: <br />
+                    <span>&quot;string&quot;</span>,<span>&quot;created_at&quot;</span>:{' '}
+                    <span>&quot;Date&quot;</span>
                     <br />
                     &#125;
                     <br />
@@ -102,8 +104,10 @@ const GoPasswordGenerator = () => {
                 <pre>
                   <code>
                     &#123; <br />
-                    <span>"username"</span>: <span>"string"</span>,<span>"password"</span>: <br />
-                    <span>"string"</span>,<span>"created_at"</span>: <span>"Date"</span> <br />
+                    <span>&quot;username&quot;</span>: <span>&quot;string&quot;</span>,
+                    <span>&quot;password&quot;</span>: <br />
+                    <span>&quot;string&quot;</span>,<span>&quot;created_at&quot;</span>:{' '}
+                    <span>&quot;Date&quot;</span> <br />
                     &#125; <br />
                   </code>
                 </pre>
