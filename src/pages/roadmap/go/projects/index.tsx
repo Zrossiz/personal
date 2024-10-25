@@ -18,9 +18,15 @@ const GoProjectsPage = () => {
             <h2>Маленькие</h2>
 
             <ul>
-              <li><Link href="/roadmap/go/projects/hangman">Виселица</Link></li>
-              <li><Link href="/roadmap/go/projects/web-server">Веб сервер</Link></li>
-              <li><Link href="/roadmap/go/projects/password-generator">Генератор паролей</Link></li>
+              <li>
+                <Link href="/roadmap/go/projects/hangman">Виселица</Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/web-server">Веб сервер</Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/password-generator">Генератор паролей</Link>
+              </li>
             </ul>
           </div>
 
@@ -28,11 +34,23 @@ const GoProjectsPage = () => {
             <h2>Средние</h2>
 
             <ul>
-              <li><Link href="/roadmap/go/projects/todo">Планировщик задач</Link></li>
-              <li><Link href="/roadmap/go/projects/metrics">Метрики</Link></li>
-              <li><Link href="/roadmap/go/projects/cloud-storage">Облачное хранилище</Link></li>
-              <li><Link href="/roadmap/go/projects/recommendation-engine">Движок для рекоммендаций</Link></li>
-              <li><Link href="/roadmap/go/projects/image-processing">Обработчик изображений</Link></li>
+              <li>
+                <Link href="/roadmap/go/projects/todo">Планировщик задач</Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/metrics">Метрики</Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/cloud-storage">Облачное хранилище</Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/recommendation-engine">
+                  Движок для рекоммендаций
+                </Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/image-processing">Обработчик изображений</Link>
+              </li>
             </ul>
           </div>
 
@@ -40,8 +58,12 @@ const GoProjectsPage = () => {
             <h2>Большие</h2>
 
             <ul>
-              <li><Link href="/roadmap/go/projects/e-commerce">Интернет магазин</Link></li>
-              <li><Link href="/roadmap/go/projects/booking-system">Система бронирования</Link></li>
+              <li>
+                <Link href="/roadmap/go/projects/e-commerce">Интернет магазин</Link>
+              </li>
+              <li>
+                <Link href="/roadmap/go/projects/booking-system">Система бронирования</Link>
+              </li>
             </ul>
           </div>
         </div>
