@@ -1,12 +1,15 @@
 import { ILayoutProps } from './Layout.props';
 import Head from 'next/head';
 import styles from './Layout.module.scss';
-import { Ad, Aside } from '@/page-components';
+import { Ad, Aside, Header } from '@/page-components';
 import { useRouter } from 'next/router';
 import { Breadcrumb } from '@/components';
+import { useState } from 'react';
 
 export const Layout = ({ children }: ILayoutProps) => {
   const router = useRouter();
+  const [openMobileMenu, setOpenMobileMenu] = useState<boolean>(false);
+
   return (
     <>
       <Head>
@@ -16,6 +19,7 @@ export const Layout = ({ children }: ILayoutProps) => {
       <div className={styles.global}>
         <div className={styles.main}>
           <main>
+            <Header />
             <Aside />
             <div className={styles.content}>
               {router.asPath != '/' && <Breadcrumb />}
