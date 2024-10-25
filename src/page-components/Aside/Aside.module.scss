@@ -2,6 +2,10 @@
     position: relative;
     width: 20%;
 
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+
     a {
         border-bottom: none;
         color: var(--white);
