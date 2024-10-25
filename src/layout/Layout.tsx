@@ -8,7 +8,6 @@ import { useState } from 'react';
 
 export const Layout = ({ children }: ILayoutProps) => {
   const router = useRouter();
-  const [openMobileMenu, setOpenMobileMenu] = useState<boolean>(false);
 
   return (
     <>
