@@ -2,8 +2,11 @@ import { ILayoutProps } from './Layout.props';
 import Head from 'next/head';
 import styles from './Layout.module.scss';
 import { Ad, Aside } from '@/page-components';
+import { useRouter } from 'next/router';
+import { Breadcrumb } from '@/components';
 
 export const Layout = ({ children }: ILayoutProps) => {
+  const router = useRouter();
   return (
     <>
       <Head>
@@ -14,7 +17,10 @@ export const Layout = ({ children }: ILayoutProps) => {
         <div className={styles.main}>
           <main>
             <Aside />
-            <div className={styles.content}>{children}</div>
+            <div className={styles.content}>
+              {router.asPath != "/" && <Breadcrumb />}
+              {children}
+            </div>
             <Ad />
           </main>
         </div>
