@@ -8,13 +8,13 @@
 
 body {
   margin: 0;
-  background-color: #494949;
+  background-color: #0d1427;
 }
 
 a {
   text-decoration: none;
-  color: var(--white);
-  border-bottom: 1px solid var(--white);
+  color: #84b2ff;
+  border-bottom: 1px solid #84b2ff;
   transition: 0.2s;
 }
 
