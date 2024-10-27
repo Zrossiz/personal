@@ -26,6 +26,12 @@
                 width: 96%;
             }
         }
+
+        .adWrapper {
+            @media screen and (max-width: 600px) {
+                display: none;
+            }
+        }
     }
 
     .footer {

@@ -6,8 +6,38 @@
     background-color: #080d19;
     width: 100vw;
     height: 100vh;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
     @media screen and (min-width: 600px) {
         display: none;
+    }
+
+    .close {
+        text-align: end;
+        font-size: 26px;
+    }
+
+    .listWrapper {
+        flex: 1;
+
+        .list {
+            list-style-type: none;
+            font-size: 30px;
+            font-weight: 600;
+    
+    
+            li {
+                margin-top: 10px;
+    
+                a {
+                    color: var(--white);
+                    border-bottom: none;
+                }
+            }
+        }
     }
 }

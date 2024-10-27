@@ -24,7 +24,9 @@ export const Layout = ({ children }: ILayoutProps) => {
               {router.asPath != '/' && <Breadcrumb />}
               {children}
             </div>
-            <Ad />
+            <div className={styles.adWrapper}>
+              <Ad />
+            </div>
           </main>
         </div>
         <div className={styles.footer}>
