@@ -4,7 +4,6 @@ import styles from './Layout.module.scss';
 import { Ad, Aside, Header } from '@/page-components';
 import { useRouter } from 'next/router';
 import { Breadcrumb } from '@/components';
-import { useState } from 'react';
 
 export const Layout = ({ children }: ILayoutProps) => {
   const router = useRouter();

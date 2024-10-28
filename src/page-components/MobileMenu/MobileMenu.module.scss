@@ -1,5 +1,5 @@
 .wrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -26,14 +26,17 @@
 
         .list {
             list-style-type: none;
-            font-size: 30px;
-            font-weight: 600;
     
     
             li {
+                display: flex;
+                justify-content: end;
                 margin-top: 10px;
     
                 a {
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 120%;
                     color: var(--white);
                     border-bottom: none;
                 }
