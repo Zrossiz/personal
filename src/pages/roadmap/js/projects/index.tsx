@@ -59,10 +59,10 @@ const JsProjectsPage = () => {
 
             <ul>
               <li>
-                <Link href="/roadmap/go/projects/e-commerce">Интернет магазин</Link>
+                <Link href="/roadmap/js/projects/e-commerce">Интернет магазин</Link>
               </li>
               <li>
-                <Link href="/roadmap/go/projects/booking-system">Система бронирования</Link>
+                <Link href="/roadmap/js/projects/booking-system">Система бронирования</Link>
               </li>
             </ul>
           </div>
