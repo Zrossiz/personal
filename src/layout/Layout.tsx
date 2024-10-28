@@ -31,8 +31,8 @@ export const Layout = ({ children }: ILayoutProps) => {
         <div className={styles.footer}>
           <footer>
             <p>
-              &copy; 2024 Платформа для обучения программированию (Штепа Mentoring). Все права
-              защищены.
+              &copy; 2024 Платформа для обучения программированию (Штепа Mentoring). <br />
+              Все права защищены.
             </p>
           </footer>
         </div>

@@ -28,7 +28,7 @@ const GoPage = () => {
           <li>Создать портфолио с сильными проектами</li>
         </ol>
 
-        <h3>Таблица навыков после прохождения курса</h3>
+        <h3>Таблица навыков после прохождения родмапа</h3>
         <table>
           <thead>
             <tr>
@@ -41,18 +41,32 @@ const GoPage = () => {
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
+              <td>Синтаксис языка</td>
+              <td>REST API</td>
+              <td>Docker</td>
+              <td>Kafka</td>
+              <td>PostgreSQL</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
+              <td>Асинхронное программирование</td>
+              <td>gRPC</td>
+              <td>Docker-compose</td>
+              <td>Linux</td>
+              <td>Redis</td>
+            </tr>
+            <tr>
+              <td>Работа с файловой системой</td>
+              <td>Web sockets</td>
+              <td>Nginx</td>
+              <td>Demons</td>
+              <td>S3</td>
+            </tr>
+            <tr>
+              <td>Onion architecture</td>
+              <td>-</td>
+              <td>-</td>
+              <td>Проектирование приложений</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>
