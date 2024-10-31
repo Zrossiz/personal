@@ -104,15 +104,13 @@ const GoMetricsPage = () => {
         <p>Для передачи данных используется следующая структура метрики:</p>
         <pre>
           <code>
-            <span>type</span> Metric <span>struct</span> &#123; <br />
-            ID uint <span> Уникальный идентификатор метрики</span> <br />
-            Name <span>string</span> <span> Название метрики</span> <br />
-            <span>Type</span> <span>string</span> <span> Тип метрики (counter или gauge)</span>{' '}
-            <br />
-            Value *float64 <span> Значение для метрик типа gauge</span> <br />
-            Delta *int64 <span> Изменение для метрик типа counter</span> <br />
-            CreatedAt <span>time</span>.<span>Time</span> <span> Время создания метрики</span>{' '}
-            <br />
+            <span>type Metric struct</span> &#123; <br />
+            <span>ID uint Уникальный идентификатор метрики</span> <br />
+            <span>Name string Название метрики</span> <br />
+            <span>Typestring Тип метрики (counter или gauge)</span><br />
+            <span>Value *float64 Значение для метрик типа gauge</span> <br />
+            <span>Delta *int64 Изменение для метрик типа counter</span> <br />
+            <span>CreatedAt time.TimeВремя создания метрики</span><br />
             &#125;
           </code>
         </pre>
